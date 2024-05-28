@@ -1,0 +1,33 @@
+@media (min-width: 900px) {
+  .container-cv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 15px;
+  }
+
+  .goals {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .team {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .scopes {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .primary {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .timeline {
+    grid-column: 3;
+    grid-row: 1/3;
+  }
+}

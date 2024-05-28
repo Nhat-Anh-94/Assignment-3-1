@@ -154,3 +154,8 @@
   color: rgba(0, 0, 0, 0.799); /* Màu sắc của biểu tượng */
   font-size: 10px;
 }
+
+/*Link dự án*/
+.link {
+  text-decoration: none;
+}
